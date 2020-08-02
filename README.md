@@ -1,4 +1,19 @@
-# IFTTTFtWebhooks
+# introducing... IFTTT ft. webhooks!!!
+
+## Ever wanted to control your smart devices all from one place on your browser? Use this interface to connect to IFTTT via their Webhooks service to connect directly to all your favorite IFTTT-connected smart devices!
+
+
+![App Screenshot](src/assets/IFTTT-ft-webhooks-v1-screenshot.png)
+
+### Just follow these simple steps:
+* connect your smart devices to Webhooks events on IFTTT following the directions best explained [here](https://www.macstories.net/ios/how-to-trigger-ifttt-applets-with-ios-12s-new-shortcuts-app-and-siri/)
+* fork this project locally
+* replace my provided example metadata with the events you created in src/assets/json/devices.json in the format specified in src/app/shared/models/device.model.ts.
+You can leave the 'img' and 'company' fields blank if you want. I borrowed most of my icons from the [IFTTT site](https://ifttt.com) itself
+* create a config.ts file in src/config in format specified in src/config/config.dist.ts with your unique Webhooks key
+* enjoy!
+
+-- --
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.4.
 

@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+$webhook-blue: #009afe;
+$button-orange: #ee4432;
+$vesync-teal: #0da778;
+$sengled-orange: #d52c1f;
+$switchbot-red: #b01d1d;
+$ifttt-gold: #ff9933;
+$vizio-purple: #aa7bc9;
+$deebot-blue: #228aaf;
+
+body {
+  width: 100%;
+}
+
+* {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.button-orange {
+  background-color: $button-orange !important;
+}
+.vesync-teal {
+  background-color: $vesync-teal !important;
+}
+.sengled-orange {
+  background-color: $sengled-orange !important;
+}
+.switchbot-red {
+  background-color: $switchbot-red !important;
+}
+.ifttt-gold {
+  background-color: $ifttt-gold !important;
+}
+.vizio-purple {
+  background-color: $vizio-purple !important;
+}
+.deebot-blue {
+  background-color: $deebot-blue !important;
+}

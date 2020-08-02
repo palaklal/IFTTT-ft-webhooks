@@ -1,0 +1,231 @@
+{
+  "devices": [
+    {
+      "name": "fan",
+      "company": "vesync",
+      "img": "fan",
+      "buttons": [
+        {
+          "value": "on",
+          "events": [
+            {
+              "event": "turn_on_fan"
+            }
+          ]
+        },
+        {
+          "value": "off",
+          "events": [
+            {
+              "event": "turn_off_fan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tv",
+      "company": "vizio",
+      "img": "tv",
+      "buttons": [
+        {
+          "value": "power",
+          "events": [
+            {
+              "event": "power_tv"
+            }
+          ]
+        },
+        {
+          "value": "+",
+          "events": [
+            {
+              "event": "raise_tv_volume"
+            }
+          ]
+        },
+        {
+          "value": "mute",
+          "events": [
+            {
+              "event": "mute_tv"
+            }
+          ]
+        },
+        {
+          "value": "-",
+          "events": [
+            {
+              "event": "lower_tv_volume"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "vacuum",
+      "company": "deebot",
+      "img": "vacuum",
+      "buttons": [
+        {
+          "value": "on",
+          "events": [
+            {
+              "event": "turn_on_vacuum"
+            }
+          ]
+        },
+        {
+          "value": "go home",
+          "events": [
+            {
+              "event": "deebot_go_home"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lamp",
+      "company": "sengled",
+      "img": "bulb",
+      "buttons": [
+        {
+          "value": "toggle",
+          "events": [
+            {
+              "event": "toggle_lamp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lights",
+      "company": "switchbot",
+      "img": "house",
+      "buttons": [
+        {
+          "value": "on",
+          "events": [
+            {
+              "event": "main_on"
+            },
+            {
+              "event": "turn_on_lamp"
+            }
+          ]
+        },
+        {
+          "value": "off",
+          "events": [
+            {
+              "event": "main_off"
+            },
+            {
+              "event": "turn_off_lamp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bedroom",
+      "company": "switchbot",
+      "img": "room",
+      "buttons": [
+        {
+          "value": "on",
+          "events": [
+            {
+              "event": "turn_on_bedroom"
+            }
+          ]
+        },
+        {
+          "value": "off",
+          "events": [
+            {
+              "event": "turn_off_bedroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bathroom",
+      "company": "switchbot",
+      "img": "room",
+      "buttons": [
+        {
+          "value": "on",
+          "events": [
+            {
+              "event": "turn_on_bathroom"
+            }
+          ]
+        },
+        {
+          "value": "off",
+          "events": [
+            {
+              "event": "turn_off_bathroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "living room",
+      "company": "switchbot",
+      "img": "room",
+      "buttons": [
+        {
+          "value": "on",
+          "events": [
+            {
+              "event": "turn_on_livingroom"
+            },
+            {
+              "event": "turn_on_lamp"
+            }
+          ]
+        },
+        {
+          "value": "off",
+          "events": [
+            {
+              "event": "turn_off_livingroom"
+            },
+            {
+              "event": "turn_off_lamp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "kitchen",
+      "company": "switchbot",
+      "img": "room",
+      "buttons": [
+        {
+          "value": "on",
+          "events": [
+            {
+              "event": "turn_on_kitchen"
+            }
+          ]
+        },
+        {
+          "value": "off",
+          "events": [
+            {
+              "event": "turn_off_kitchen"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

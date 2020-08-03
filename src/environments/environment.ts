@@ -5,6 +5,7 @@ import { config } from '../configs/config'
 export const environment = {
   production: false,
   webhooksAPIKey: config.webhooksAPIKey,
+  baseURL: '/trigger/', // for use with proxy.conf.json
   name: 'IFTTT ft. webhooks',
   version: '1'
 };

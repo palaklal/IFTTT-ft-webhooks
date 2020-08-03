@@ -1,0 +1,8 @@
+{
+  "/trigger/*": {
+    "target": "https://maker.ifttt.com/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

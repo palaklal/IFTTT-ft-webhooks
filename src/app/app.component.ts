@@ -49,16 +49,19 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   getSize(buttons: Device['buttons'], b: number): string {
-    if (buttons.length === 2) {
-      return 'half'
-    } else if (buttons.length === 3) {
-      return 'third'
-    } else if (buttons.length === 4 && b !== 0) {
-      return 'third third-of-four'
-    } else if (buttons.length === 4 && b === 0) {
-      return 'top'
+    switch(buttons.length) {
+      case 2:
+        return 'half'
+        break;
+      case 3:
+        return 'third'
+        break;
+      case 4:
+        return b === 0 ? 'top' : 'third third-of-four'
+        break;
+      default:
+        return ''
     }
-    return ''
   }
 
   triggerEvent(events: any[]): void {

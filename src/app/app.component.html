@@ -6,14 +6,12 @@
 </div>
 <div id="device-container">
   <ng-container *ngFor="let device of devices">
-    <div class="device" (click)="triggerEvent(device.events)" [ngClass]="getColor(device.company)">
-      <ng-container *ngIf="device.buttons.length > 1">
-        <ng-container *ngFor="let button of device.buttons; let b = index">
-          <span class="part"
-            [ngClass]="getSize(device.buttons, b)"
-            (click)="triggerEvent(button.events)">
-          </span>
-        </ng-container>
+    <div class="device" [ngClass]="getColor(device.company)">
+      <ng-container *ngFor="let button of device.buttons; let b = index">
+        <span class="part"
+          [ngClass]="getSize(device.buttons, b)"
+          (click)="triggerEvent(button.events)">
+        </span>
       </ng-container>
       <span class="name">{{device.name}}</span>
       <img class="{{device.type}}" src="../assets/img/{{device.img || 'outlet'}}.png" alt="{{device.type}}">

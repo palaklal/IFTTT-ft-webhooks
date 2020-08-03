@@ -41,7 +41,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 2.5rem 0rem 1rem 1rem;
+  padding: 2.5rem 0rem 1rem 2rem;
   width: 100%;
 
   .device {
@@ -60,6 +60,7 @@
     flex-direction: column;
     box-shadow: 10px 10px 8px #888888;
     letter-spacing: 1px;
+    border: 2.5px solid #fff;
 
     &:hover {
       cursor: pointer;
@@ -120,6 +121,9 @@
     width: 50%;
     height: 100%;
 
+    &:nth-child(1), &:nth-child(1):hover {
+      left: 0%;
+    }
     &:nth-child(2), &:nth-child(2):hover {
       left: 50%;
     }

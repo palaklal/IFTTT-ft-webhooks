@@ -7,9 +7,11 @@ $switchbot-red: #b01d1d;
 $ifttt-gold: #ff9933;
 $vizio-purple: #aa7bc9;
 $deebot-blue: #228aaf;
+$gray: #e8e8e8;
 
 body {
   width: 100%;
+  background-color: $gray;
 }
 
 * {

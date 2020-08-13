@@ -86,7 +86,7 @@
       ]
     },
     {
-      "name": "lamp",
+      "name": "living room lamp",
       "company": "sengled",
       "img": "bulb",
       "buttons": [
@@ -95,6 +95,21 @@
           "events": [
             {
               "event": "toggle_lamp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bedroom lamp",
+      "company": "sengled",
+      "img": "bulb",
+      "buttons": [
+        {
+          "value": "toggle",
+          "events": [
+            {
+              "event": "toggle_bedroom_lamp"
             }
           ]
         }
@@ -138,7 +153,8 @@
           "value": "on",
           "events": [
             {
-              "event": "turn_on_bedroom"
+              "event": "turn_on_bedroom",
+              "event": "turn_on_bedroom_lamp"
             }
           ]
         },
@@ -146,7 +162,8 @@
           "value": "off",
           "events": [
             {
-              "event": "turn_off_bedroom"
+              "event": "turn_off_bedroom",
+              "event": "turn_off_bedroom_lamp"
             }
           ]
         }

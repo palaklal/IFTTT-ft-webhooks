@@ -73,9 +73,15 @@
     }
 
     .name {
-      font-size: 5vh;
+      font-size: 4.5vmin;
       font-weight: 900;
-      margin-bottom: .5rem;
+      height: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1vmin;
+      margin-bottom: 0.5vmin;
     }
 
     .buttons {
